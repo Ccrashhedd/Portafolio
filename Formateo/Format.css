@@ -308,16 +308,74 @@ footer {
     }
 }
 
-button {
-    background-color: #FA8334; /* Color de fondo */
-    color: white; /* Color del texto */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    padding: 10px 15px; /* Espaciado interno */
-    cursor: pointer; /* Cambia el cursor al pasar el mouse */
-    transition: background-color 0.3s; /* Transición suave */
+/* Sección Proyectos */
+.proyectos {
+    text-align: center;
+    padding: 20px;
 }
 
-button:hover {
-    background-color: #6F537A; /* Color al pasar el mouse */
+.proyectos h3 {
+    font-size: 1.8em;
+    color: #6F537A;
+}
+
+.proyectos p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.tarjeta {
+    background-color: #FFF5E1;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+    transform: scale(1.03);
+}
+
+.tarjeta h4 {
+    font-size: 1.5em;
+    color: #6F537A;
+    margin-bottom: 10px;
+}
+
+.tarjeta p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.tarjeta a {
+    text-decoration: none;
+    color: #FA8334;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.tarjeta a:hover {
+    color: #6F537A;
+}
+
+.imgProy {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 15px 0;
+    transition: transform 0.3s;
+}
+
+.imgProy:hover {
+    transform: scale(1.05);
+}
+
+audio {
+    margin-top: 15px;
+    width: 100%;
 }
