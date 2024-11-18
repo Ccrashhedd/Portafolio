@@ -307,3 +307,17 @@ footer {
         font-size: 1.5em;
     }
 }
+
+button {
+    background-color: #FA8334; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+button:hover {
+    background-color: #6F537A; /* Color al pasar el mouse */
+}
